@@ -1,0 +1,7 @@
+CREATE TABLE health_check (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  note VARCHAR(50) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO health_check(note) VALUES ('ok');
